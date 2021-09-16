@@ -1,47 +1,73 @@
+#nav{
+  background-color: rgb(22,2,68);
+  display:flex ;
+  align-items: center;
+  justify-content: space-evenly;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+a:hover{
+  background-color: #fff;
+  color:rgb(22, 2, 68);
+  border-radius: 10px;
+}
+.brand{
+  color: #fff;
+  text-shadow: none;
+}
 .container {
     width: 70%;
     margin: auto;
     text-align: center;
-  }
-  
-  .dice {
+}  
+.dice {
     text-align: center;
     display: inline-block;
+    border: blue;
+}
   
-  }
-  
-  body {
-    background-color: #cdd7e6;
+body {
+    background-color: #fff;
     border: #fff, solid;
     border-color: black;
-  }
-  
-  h1,h3 {
+    margin: 0%;
+    font-family: 'Bebas Neue', cursive;;
+}
+h1, h3 {
     margin: 30px;
-    font-family: 'Roboto Condensed', sans-serif;;
     text-shadow: 3px 0 #959da7;
-    font-size: 5rem;
-    color: #161616;
-  }
-  
-  p {
     font-size: 2rem;
-    color:#161616;;
-    font-family: 'Roboto Condensed', sans-serif;;
   }
   
-  img {
-    width: 80%;
-  }
+ #para{
+    font-size: 1rem;
+    color:#000000;;
+    }
   
-  footer {
-    margin-top: 5%;
-    color:#161616;
+.img1, .img2 {
+    width: 60%;
+    border-radius: 10%;
+  }
+#footer {
+    padding: 10px;
+    color:#fff;
     text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;;
-  
-  }
-  .btn{
+    background-color: rgb(22, 2, 68);
+    margin-top: 30px;
+    bottom: 0;
+    width: 100%;
+ }
+.btn{
     margin-top: 20px;
-  }
+    background-color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 10px;
+    border-style: double;
+    padding: 20px;
+    font-weight: bolder;
+
+}
   
