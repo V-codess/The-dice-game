@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,41 @@
     <title>Dice Game</title>
     <link rel="stylesheet" href="dice.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    
-</head>
-<body>
-<div  class="container">
-    <h1>Dice Game</h1>
-    <h3>Click on refresh button to see who wins!</h3>
-<div class="dice">
-    <p>Player 1</p>
-    <img class="img1" src="images/dice6.png">
-</div>
-<div class="dice">
-    <p>Player 2</p>
-    <img class="img2" src="images/dice6.png">
-</div>
-<div>
-<button class="btn" onclick="refresh()">Refresh</button>
-</div>
-</div>
-<script src="dice.js" charset="utf-8"></script>
-</body>
-    <footer>
-      www 🎲 The Game 🎲 com
-    </footer>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
+</head>
+
+<body>
+    <section id="nav">
+         <h1 class="brand">The Dice Game</h1>
+         <a href="#">Scores</a>
+         <a href="#">About</a>
+         <a href="#">Join to play Multiplayer</a>
+    </section>
+    <div class="container">
+    <div>
+        <h2>Click on refresh button to see who wins!</h2>
+    </div>
+    <div class="dice">
+            <h4>Player 1</h4>
+            <img class="img1" src="JS/images/dice6.png">
+    </div>
+    <div class="dice">
+            <h4>Player 2</h4>
+            <img class="img2" src="JS/images/dice6.png">
+    </div>
+    <div>
+        <button class="btn" onclick="refresh()">Roll the dice!</button>
+        <button type="button" class="btn" onClick="editNames()">Edit Names</button>
+        <button class="btn" onclick="load()">Start again!</button>
+    </div>
+    </div>
+    <script src="dice.js" charset="utf-8"></script>
+<div>
+<footer id="footer">
+    <a class="linkf" href="dice.html"><p>www 🎲 The Game 🎲 com</p></a>
+</footer>
+</div>
+</body>
 </html>
